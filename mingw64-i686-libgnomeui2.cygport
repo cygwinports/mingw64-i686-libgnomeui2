@@ -1,0 +1,12 @@
+CROSS_HOST="i686-w64-mingw32"
+ORIG_PN="libgnomeui"
+inherit cross gnome2
+
+NAME="mingw64-i686-libgnomeui2"
+VERSION=2.24.5
+RELEASE=1
+CATEGORY="Devel"
+SUMMARY="GNOME GUI library for Win32 toolchain"
+DESCRIPTION="This is the GUI part of the GNOME library."
+
+PATCH_URI="2.24.5-mingw64.patch"

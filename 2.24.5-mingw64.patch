@@ -1,0 +1,11 @@
+--- origsrc/libgnomeui-2.24.5/libgnomeui/gnome-scores.c	2010-03-29 05:48:34.000000000 -0500
++++ src/libgnomeui-2.24.5/libgnomeui/gnome-scores.c	2013-11-19 17:59:40.813049600 -0600
+@@ -190,7 +190,7 @@ gnome_scores_construct (  GnomeScores *g
+ 		/* TRANSLATORS NOTE: Date format used when showing scores in games.
+ 		 * Please refer to manpage of strftime(3) for complete reference.
+ 		 */
+-		if(strftime(tmp2, sizeof(tmp2), _("%a %b %d %T %Y"),
++		if(strftime(tmp2, sizeof(tmp2), _("%a %b %d %H:%M:%S %Y"),
+ 			    localtime( &(times[i]) )) == 0) {
+ 			/* according to docs, if the string does not fit, the
+ 			 * contents of tmp2 are undefined, thus just use
