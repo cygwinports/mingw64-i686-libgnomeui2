@@ -9,4 +9,9 @@ CATEGORY="Devel"
 SUMMARY="GNOME GUI library for Win32 toolchain"
 DESCRIPTION="This is the GUI part of the GNOME library."
 
-PATCH_URI="2.24.5-mingw64.patch"
+PATCH_URI="
+	2.24.5-mingw64.patch
+	2.24.5-no-x.patch
+"
+
+CYGCONF_ARGS="--without-x"
