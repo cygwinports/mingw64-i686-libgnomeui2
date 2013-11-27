@@ -4,7 +4,7 @@ inherit cross gnome2
 
 NAME="mingw64-i686-libgnomeui2"
 VERSION=2.24.5
-RELEASE=1
+RELEASE=2
 CATEGORY="Devel"
 SUMMARY="GNOME GUI library for Win32 toolchain"
 DESCRIPTION="This is the GUI part of the GNOME library."
